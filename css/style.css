@@ -14,7 +14,7 @@ main {
 
  .main__container{
     margin-top: 6rem;
-    width: 14rem;
+    width: 15.4rem;
     height: 23rem;
     
 }
@@ -114,7 +114,7 @@ main {
     border-radius: 0.5rem;
     height: 1.5rem;
     margin: 2px;
-    width: 10.5rem;
+    width: 12rem;
 }
 
 .container--stats__box > p{
