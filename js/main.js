@@ -10,7 +10,7 @@ const request = new XMLHttpRequest;
 const API = 'https://pokeapi.co/api/v2/pokemon/';
 
 btn.addEventListener('click', ()=>{
-    get_pokemon(search.value)
+    get_pokemon(search.value.toLowerCase())
     .then(res =>{
         console.log(res)})
     .catch(error=>{
