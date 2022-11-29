@@ -142,3 +142,15 @@ main {
 #box-5{
     background-color: #DFDFDF;
 }
+
+
+@media (max-width: 600px) {
+    .main__container {
+        width: 18rem;
+        height: 25rem;
+    }
+    .container--stats__box{
+        width: 15rem;
+    }
+  }
+  
