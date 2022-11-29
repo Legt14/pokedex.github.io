@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background-color: #6298f0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+ .main__container{
+    margin-top: 6rem;
+    width: 14rem;
+    height: 23rem;
+    
+}
+
+.search--pokemon{
+    border-top:  #000000 solid 5px;
+    border-left:  #000000 solid 5px;
+    border-right: #000000 solid 5px;
+    background: #CE2211;
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.search--pokemon label{
+    background-color: black;
+    color: white;
+    padding-top: 0.3rem;
+    border-radius: 0 0 10px 10px;
+    font-size: 12px;
+    width: 7rem;
+    text-align: center;
+    padding-bottom: 0.3rem;
+}
+
+.search--pokemon #search{
+    padding-top: 1px;
+    font-size: 12px;
+    border: none;
+    background-color: #80808000;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.6rem;
+    outline: none;
+    text-align: center;
+    width: 7rem;
+}
+
+#btn-search {
+    width: 6rem;
+    height: 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card{
+    border: #000000 5px solid;
+    display: flex;
+    background-color: white ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    height: 12rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.card_profile{
+    text-align: center;
+    position: relative;
+    bottom: 20rem;
+}
+
+.pokeball{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeball__inside{
+    margin-top: 0.8rem;
+    background: white;
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #000000 solid 0.3rem;
+}
+
+.pokeball__inside img{
+    width: 4.7rem;
+    border-radius: 100%;
+}
+
+.container--stats__box {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    margin: 2px;
+    width: 10.5rem;
+}
+
+.container--stats__box > p{
+    padding: 0.6rem;
+}
+
+#box-0{
+    background-color: #4DAD5B;
+}
+#box-0:hover{
+    background-color: #31e44c;
+}
+#box-1{
+    background-color: #ef3838;
+}
+#box-2{
+    background-color: #1C4CBD;
+}
+#box-3{
+    background-color: #E6BC2F;
+}
+#box-4{
+    background-color: #855AC9;
+}
+#box-5{
+    background-color: #DFDFDF;
+}
