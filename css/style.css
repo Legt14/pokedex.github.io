@@ -101,12 +101,12 @@ main {
 }
 
 .pokeball__inside img{
-    width: 5.7rem;
+    width: 4.7rem;
     border-radius: 100%;
 }
 
 .pokeball__inside img:hover{
-    width: 7.7rem;
+    width: 5.3rem;
 }
 
 .container--stats__box {
