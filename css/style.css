@@ -101,8 +101,12 @@ main {
 }
 
 .pokeball__inside img{
-    width: 4.7rem;
+    width: 5.7rem;
     border-radius: 100%;
+}
+
+.pokeball__inside img:hover{
+    width: 7.7rem;
 }
 
 .container--stats__box {
@@ -125,22 +129,42 @@ main {
     background-color: #4DAD5B;
 }
 #box-0:hover{
-    background-color: #31e44c;
+    background-color: #57d069;
 }
+
 #box-1{
     background-color: #ef3838;
 }
+#box-1:hover{
+    background-color: #ff3b3b;
+}
+
 #box-2{
     background-color: #1C4CBD;
 }
-#box-3{
-    background-color: #E6BC2F;
+#box-2:hover{
+    background-color: #215de8;
 }
+
+#box-3{
+    background-color: #DFDFDF;
+}
+#box-3:hover{
+    background-color: #eeeeee;
+}
+
 #box-4{
     background-color: #855AC9;
 }
+#box-4:hover{
+    background-color: #9263dd;
+}
+
 #box-5{
-    background-color: #DFDFDF;
+    background-color: #E6BC2F;
+}
+#box-5:hover{
+    background-color: #f6c935;
 }
 
 
